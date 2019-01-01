@@ -1,0 +1,14 @@
+{
+	"tutorial": {
+		"title": "Learn R Today"
+	},
+	"blog": {
+		"title": "Bloggers R Us"
+	},
+	"resource": {
+		"title": "Resources"
+  },
+  "podcast": {
+		"title": "Podcasts"
+	}
+} 

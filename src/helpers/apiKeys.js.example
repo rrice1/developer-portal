@@ -8,6 +8,10 @@ const apiKeys = {
     messagingSenderId: '',
 
   },
+  githubApi: {
+    client_id: '',
+    client_secret: '',
+  }
 };
 
 export default apiKeys;

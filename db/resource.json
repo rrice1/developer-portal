@@ -1,0 +1,29 @@
+{
+  "resource1" : {
+    "name":"I Love Resources",
+    "type": "resources",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  },"resource2" : {
+    "name":"So Very Very",
+    "type": "resources",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  },
+  "resource3" : {
+    "name":"A Lot",
+    "type": "resources",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  },
+  "resource4" : {
+    "name":"Of Resources",
+    "type": "resources",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  }
+}

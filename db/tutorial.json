@@ -1,0 +1,29 @@
+{
+  "tutorial1" : {
+    "name":"Come Learn R",
+    "type":"tutorial",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  },"tutorial2" : {
+    "name":"Come Learn SQL",
+    "type":"tutorial",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  },
+  "tutorial3" : {
+    "name":"Come Learn Python",
+    "type":"tutorial",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  },
+  "tutorial4" : {
+    "name":"Come Learn Anything Besides Front-End",
+    "type":"tutorial",
+    "isCompleted": false,
+    "url":"www.google.com",
+    "uid":"oikzDKaXtvg0zirhJ3cU5INQOkM2"
+  }
+}

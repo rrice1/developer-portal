@@ -14,6 +14,7 @@ import authRequests from '../helpers/data/authRequests';
 class App extends Component {
   state = {
     authed: false,
+    github_username: '',
   }
 
   componentDidMount() {
@@ -35,14 +36,14 @@ class App extends Component {
     this.removeListener();
   }
 
-  isAuthenticated = () => {
-    this.setState({ authed: true });
+  isAuthenticated = (username) => {
+    this.setState({ authed: true, github_username: username });
   }
 
   render() {
     const logoutClickEvent = () => {
       authRequests.logoutUser();
-      this.setState({ authed: false });
+      this.setState({ authed: false, username: '' });
     };
 
     if (!this.state.authed) {
@@ -57,9 +58,9 @@ class App extends Component {
     return (
       <div className="App">
         <MyNavbar isAuthed={this.state.authed} logoutClickEvent={logoutClickEvent}/>
-        <Websites/>
         <Bio/>
         <Input/>
+        <Websites/>
       </div>
     );
   }

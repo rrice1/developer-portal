@@ -1,12 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import authRequests from '../../helpers/data/authRequests';
 import './Auth.scss';
 
 class Auth extends React.Component {
+  static propTypes = {
+    isAuthenticated: PropTypes.func,
+  }
+
   authenticateUser = (e) => {
     e.preventDefault();
-    authRequests.authenticate().then(() => {
-      this.props.isAuthenticated();
+    authRequests.authenticate().then((res) => {
+      const user = res.additionalUserInfo.username;
+      console.log(res);
+      this.props.isAuthenticated(user);
     }).catch(err => console.error('there was an error with auth', err));
   }
 
