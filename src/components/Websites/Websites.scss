@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.Resource {
+  height: 80vh;
+  overflow-y:scroll;
+}
+.nav-tabs {
+  border-bottom: 2px solid $white;;
+  margin-bottom:5px;
+}
+.nav-tabs .nav-link.active {
+  background-color: $white;
+  border-color: none;
+  // border-bottom: 1px solid rgb(212, 208, 208);
+}
+ul {
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+}

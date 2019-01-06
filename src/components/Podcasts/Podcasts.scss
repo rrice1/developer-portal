@@ -1,0 +1,4 @@
+@import '../../styles/variables';
+.podcastClass {
+  @include default-resources();
+}

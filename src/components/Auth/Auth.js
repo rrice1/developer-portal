@@ -10,18 +10,17 @@ class Auth extends React.Component {
 
   authenticateUser = (e) => {
     e.preventDefault();
-    authRequests.authenticate().then((res) => {
-      const user = res.additionalUserInfo.username;
-      console.log(res);
+    authRequests.authenticate().then((result) => {
+      const user = result.additionalUserInfo.username;
       this.props.isAuthenticated(user);
     }).catch(err => console.error('there was an error with auth', err));
   }
 
   render() {
     return (
-      <div className="Auth">
-        <button className="btn btn-danger" onClick={this.authenticateUser}>Login</button>
-      </div>
+        <div className="Auth">
+            <button className="btn" onClick={this.authenticateUser}><img src="https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/4363/github.png" alt=""/></button>
+        </div>
     );
   }
 }

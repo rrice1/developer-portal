@@ -1,1 +1,19 @@
-$lightbrown: #D2B48C;
+@import url('https://fonts.googleapis.com/css?family=Domine|Fredericka+the+Great|Righteous');
+
+$white: white;
+$lightBlue: lightblue;
+
+
+
+@mixin default-resources () {
+  background: $lightBlue;
+  border: 1px solid $white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  transition: border 150ms;
+  margin-bottom: 5px;
+}

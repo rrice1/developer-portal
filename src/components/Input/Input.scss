@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.form {
+  margin:40px 10px;
+  border: 2px solid white;
+  padding: 20px;
+  background:$lightBlue;
+  border-radius: 5px;
+  max-width:800px;
+}
+.add-button {
+  max-height: 50px;
+  max-width: 50px;
+  margin-top: 30px;
+  margin-left: -30px;
+}
+#add-form {
+  max-width: 700px;
+}
